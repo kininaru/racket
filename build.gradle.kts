@@ -13,7 +13,8 @@ repositories {
 }
 
 dependencies {
-    testImplementation(kotlin("test"))
+    testImplementation(kotlin("test"));
+    api("net.mamoe", "mirai-core", "2.7.0")
 }
 
 tasks.test {

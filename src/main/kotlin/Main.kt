@@ -1,6 +1,4 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import net.mamoe.mirai.BotFactory
 
-    // Try adding program arguments at Run/Debug configuration
-    println("Program arguments: ${args.joinToString()}")
+fun main(args: Array<String>) {
 }
