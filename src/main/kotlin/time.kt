@@ -19,9 +19,7 @@ fun nextLoginTime(): String {
 
 fun getStatusFromTime(time: String): String {
     return when (time) {
-        "11:30" -> "读书"
-        "17:30" -> "读书"
-        "21:30" -> "读书"
+        "11:30", "17:30", "21:30" -> "读书"
         "7:30" -> "睡觉"
         else -> ""
     }
