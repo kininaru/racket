@@ -10,10 +10,10 @@ fun nextLoginTime(): String {
         .withZone(ZoneOffset.UTC)
         .format(Instant.now()).toInt()
 
-    if (hour in 8..11) return "11:30"
-    if (hour in 14..17) return "17:30"
-    if (hour in 19..21) return "21:00"
-    if (hour in 0..7) return "7:30"
+    if (hour in 8..10) return "11:30"
+    if (hour in 14..16) return "17:30"
+    if (hour in 19..20) return "21:00"
+    if (hour in 0..6) return "7:30"
     return ""
 }
 
